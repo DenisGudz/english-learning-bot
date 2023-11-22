@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.translationActive{
+    /* display: none; */
+    display: inline-block;
+    border: .05rem solid black;
+    background-color: lightcyan;
+    box-shadow: .01rem .01rem 2rem lightslategrey;
+}
+
+.translationInActive{
+    display: none;
+}
+/* 
+.word{
+    
+} */
+
+.wordWraper{
+    display: inline-block;
+    margin-right: .4rem;
+    cursor: pointer;
+}
+
+.wordWraper:hover p::after{
+    width: 100%;
+    content: '';
+    height: .1rem;
+    display: block;
+    background-color: black;
+
+}
